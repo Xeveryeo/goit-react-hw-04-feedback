@@ -12,7 +12,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         >
           {option} 
         </Button>
-      ))}      
+      ))}
     </ButtonWrap>
   );
 };
