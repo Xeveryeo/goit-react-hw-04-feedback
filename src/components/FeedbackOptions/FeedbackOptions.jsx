@@ -10,9 +10,10 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           type="button"
           onClick={() => onLeaveFeedback(option)}
         >
-          {option}
+          {option} 
         </Button>
-      ))}
+      ))}      
     </ButtonWrap>
   );
 };
+    
