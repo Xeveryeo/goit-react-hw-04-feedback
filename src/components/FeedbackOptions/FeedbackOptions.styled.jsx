@@ -11,7 +11,7 @@ export const Button = styled.button`
       case 'good':
         return 'green';
       case 'neutral':
-        return 'orange';
+        return 'gray';
       case 'bad':
         return 'red';
       default:
